@@ -10,16 +10,17 @@ rhc create-app myapp http://cartreflect-claytondev.rhcloud.com/github/boekkooi/o
 ```
 
 If you want to install a specific nginx version you can add `--env OPENSHIFT_NGINX_VERSION=<version>` to the command.
-For example to install nginx 1.8.0 you can use:
+For example to install nginx 1.9.13 you can use:
 ```BASH
-rhc create-app myapp --env OPENSHIFT_NGINX_VERSION=1.8.0 http://cartreflect-claytondev.rhcloud.com/github/boekkooi/openshift-cartridge-nginx
+rhc create-app myapp --env OPENSHIFT_NGINX_VERSION=1.9.13 http://cartreflect-claytondev.rhcloud.com/github/boekkooi/openshift-cartridge-nginx
 ```
 
 ## Versions
 Currently this cartridge has the following versions:
-- 1.6.2
+- 1.6.3
 - 1.7.10
-- 1.8.0
+- 1.8.1
+- 1.9.13
 
 If you need another version you can compile it yourself and submit a PR to get it integrated.
 
